@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NoFap Advent Calendar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="calendar-background">
+    <!-- Newsletter-Link -->
+    <div class="newsletter">
+        <a href="https://nopmo.substack.com/" target="_blank">
+            <img src="NoLogo1.png" alt="Newsletter Logo">
+        </a>
+    </div>
+
+    <!-- Überschrift für den Kalender -->
+    <h2>Welcome to the #1 NoFap Advent Calendar!</h2>
+
+
+    <!-- Anleitung zwischen der Überschrift und den Türchen -->
+    <div class="instruction">
+        <p>Enjoy the worlds first NoFap Advent Calender! Daily tasks and challanges designed to make your NoFap journey easier await you behind each door. If you are curious on NoFap in general, you can take a look at my free, weekly newsletter by clicking the logo in the top corner.</p>
+    </div>
+
+    <!-- Kalender-Türchen -->
+    <div id="doors"></div>
+
+    <!-- Modal für Tagesherausforderung -->
+    <div id="modal" class="modal" style="display: none;">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p id="challenge-text"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
